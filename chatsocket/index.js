@@ -23,9 +23,8 @@ io.on("connection",(socket)=>{
 
     socket.on('joined',({user})=>{
           users[socket.id]=user;
-          console.log(`${user} has joined `);
-          socket.broadcast.emit('userJoined',{user:"Bot",message:` ${users[socket.id]} has joined`});
-          socket.emit('welcome',{user:"Bot",message:`hii -${users[socket.id]} `})
+          socket.broadcast.emit('userJoined',{user:"Bot",message:` ${user} has joined`});
+          socket.emit('welcome',{user:"Bot",message:`hii -${user} `})
     })
 
     socket.on('message',({message,id,user})=>{
