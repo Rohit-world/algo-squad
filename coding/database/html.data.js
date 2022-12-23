@@ -10,7 +10,7 @@ const htmltopics = [
         HTML elements tell the browser how to display the content
         HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
         `,
-    video: ``,
+    video: "https://www.youtube.com/embed/MDLn5-zSQQI",
     code: `<!DOCTYPE html>
         <html>
         <head>
@@ -37,7 +37,7 @@ const htmltopics = [
         Then open a new document to place the code.
         Step 2: Write Some HTML
         Write or copy the following HTML code into Notepad:`,
-    video: ``,
+    video: "https://www.youtube.com/embed/ZiRRR2z3WLs",
     code: `<!DOCTYPE html>
         <html>
         <body>
@@ -57,7 +57,7 @@ const htmltopics = [
         <p>	        My first paragraph.	    </p>
         <br>	    none    	            none
     `,
-    video: ``,
+    video: "https://www.youtube.com/embed/YCEMHGsKYRc",
     code: `<!DOCTYPE html>
         <html>
         <body>
@@ -76,7 +76,7 @@ const htmltopics = [
         Attributes provide additional information about elements
         Attributes are always specified in the start tag
         Attributes usually come in name/value pairs like: name="value"`,
-    video: ``,
+    video: "https://www.youtube.com/embed/JqHW8Wf254I",
     code: `<a href="https://www.w3schools.com">Visit W3Schools</a>
     <img src="img_girl.jpg">
 `,
@@ -86,7 +86,7 @@ const htmltopics = [
     content: `HTML headings are titles or subtitles that you want to display on a webpage.
 
     `,
-    video: ``,
+    video: "https://www.youtube.com/embed/1CoBHqSErzg",
     code: `
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
@@ -103,7 +103,7 @@ const htmltopics = [
         
         A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
     `,
-    video: ``,
+    video: "https://www.youtube.com/embed/J8qfzFmcmUA",
     code: `
         <p>
         This paragraph
@@ -126,7 +126,7 @@ const htmltopics = [
   {
     heading: `HTML Styles`,
     content: `The HTML style attribute is used to add styles to an element, such as color, font, size, and more.`,
-    video: ``,
+    video: "https://www.youtube.com/embed/EopTYckcgp4",
     code: `
         <body>
 
@@ -149,7 +149,7 @@ Sometimes you want your cells to be table header cells. In those cases use the <
 
 td stands for table data.
     `,
-    video: ``,
+    video: "https://www.youtube.com/embed/31HTSB8X7FI",
     code: `<table>
         <tr>
           <th>Company</th>
@@ -175,7 +175,7 @@ td stands for table data.
         A responsive web design will automatically adjust for different screen sizes and viewports.
         Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):
     `,
-    video: ``,
+    video: "https://www.youtube.com/embed/lAOkx2yZESY",
     code: `
         <picture>
         <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
