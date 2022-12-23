@@ -12,7 +12,7 @@ This website is build for helping the developer to revise the the concepts that 
 
 ## homepage
 
-![App Screenshot]("screenshots/home.png")
+![App Screenshot]("./screenshots/home.png")
 ## content
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
